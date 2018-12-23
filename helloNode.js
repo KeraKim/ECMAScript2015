@@ -1,9 +1,16 @@
+const { logA, logB } = require('./log');
+const { checkedEvenOrOdd } = require('./function');
 
-function run() {
-    console.log('Hello Node!!');
-    console.log('3초 후 실행');
+console.log(logA);
+console.log(logB);
+
+checkedEvenOrOdd(3);
+
+for(;;){
+    console.log('for');
+    process.exit();
 }
 
-console.log('시작');
-setTimeout(run, 3000);
-console.log('끝');
+
+
+
