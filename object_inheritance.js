@@ -9,9 +9,9 @@ const parent = {
 };
 
 const child = {
-    __proto__ : parent,
+    __proto__ : parent,                             // __proto__ 를 이용해 부모의 변수, 함수 값을 그대로 받음
     name : 'child'
 };
 
-parent.makeToy();
-child.makeToy();
+parent.makeToy();                                   // parent maked toy
+child.makeToy();                                    // child maked toy
