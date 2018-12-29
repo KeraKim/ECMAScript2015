@@ -1,5 +1,3 @@
-
-
 // var 는 block-level scope 를 지원하지 않기에 varNumber 은 전역변수로 설정된다.
 // 마찬가지로 block-level scope 를 지원하지 않기에 미리 10을 입력해 놓은 varNumber 에 20의 값이 덧입혀진 모습을 볼 수 있다.
 
