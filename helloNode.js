@@ -1,5 +1,5 @@
-const { logA, logB } = require('./log');
-const { checkedEvenOrOdd } = require('./function');
+const { logA, logB } = require(`./log`);
+const { checkedEvenOrOdd } = require(`./function`);
 
 console.log(logA);
 console.log(logB);
@@ -10,7 +10,5 @@ for(;;){
     console.log('for');
     process.exit();
 }
-
-
 
 
